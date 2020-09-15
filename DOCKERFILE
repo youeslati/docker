@@ -1,0 +1,4 @@
+FROM openjdk:8
+COPY demo-1-0.0.1-SNAPSHOT.jar app.jar
+EXPOSE 9292
+CMD java -jar app.jar
